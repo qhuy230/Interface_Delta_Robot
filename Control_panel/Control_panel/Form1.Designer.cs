@@ -93,6 +93,7 @@ namespace Control_panel
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.label41 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label24 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -740,11 +741,23 @@ namespace Control_panel
             this.timer2.Interval = 2000;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label24.ForeColor = System.Drawing.Color.Gray;
+            this.label24.Location = new System.Drawing.Point(16, 579);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(196, 20);
+            this.label24.TabIndex = 17;
+            this.label24.Text = "Pham Quoc Huy Designed";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(946, 608);
+            this.Controls.Add(this.label24);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.name);
             this.Controls.Add(this.pictureBox2);
@@ -835,6 +848,7 @@ namespace Control_panel
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Label label41;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label24;
     }
 }
 
